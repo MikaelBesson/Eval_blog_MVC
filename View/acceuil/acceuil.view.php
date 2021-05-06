@@ -15,7 +15,7 @@
 
             <h1>Bienvenue chez les Fufus</h1>
             <span>veuillez vous connectez pour acceder au blog</span>
-            <form id="formConnect" action="../Model/VerifManager.php" method="post">
+            <form id="formConnect" action="" method="post">
                 <div class="pseudo">
                     <label for="pseudo">Votre pseudo</label><br>
                     <input type="text" name="pseudo" id="pseudo"><br>
@@ -26,7 +26,7 @@
                 </div>
                 <input type="submit" id="submit">
             </form>
-            <span>Pour vous inscrire <a href="">C'est Ici !</a></span>
+            <span>Pour vous inscrire <a href="/index.php?ctrl=inscription">C'est Ici !</a></span>
         </div>
         <div class="images2"></div>
     </div>

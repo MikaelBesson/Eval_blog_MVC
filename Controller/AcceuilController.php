@@ -2,6 +2,6 @@
 
 class AcceuilController extends Controller {
     public function displayAcceuil() {
-        $this->render('acceuil');
+        $this->render('acceuil/acceuil','bienvenue !!');
     }
 }
